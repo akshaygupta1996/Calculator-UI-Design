@@ -1,0 +1,77 @@
+new Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Flexible(
+                            flex: 1,
+                            child: new Container(
+                              margin: new EdgeInsets.all(6.0),
+                              height: double.infinity,
+                              width: double.infinity,
+                              alignment: Alignment.center,
+                              decoration: new BoxDecoration(
+                                  borderRadius: new BorderRadius.all(
+                                      new Radius.circular(16.0)),
+                                  color: Colors.white24),
+                              child: new Text(
+                                "C",
+                                style: new TextStyle(
+                                    color: Colors.white, fontSize: 26.0),
+                              ),
+                            ),
+                          ),
+                          Flexible(
+                            flex: 1,
+                            child: new Container(
+                              margin: new EdgeInsets.all(6.0),
+                              height: double.infinity,
+                              width: double.infinity,
+                              alignment: Alignment.center,
+                              decoration: new BoxDecoration(
+                                  borderRadius: new BorderRadius.all(
+                                      new Radius.circular(16.0)),
+                                  color: Colors.white24),
+                              child: new Text(
+                                "+/-",
+                                style: new TextStyle(
+                                    color: Colors.white, fontSize: 26.0),
+                              ),
+                            ),
+                          ),
+                          Flexible(
+                            flex: 1,
+                            child: new Container(
+                              margin: new EdgeInsets.all(6.0),
+                              height: double.infinity,
+                              width: double.infinity,
+                              alignment: Alignment.center,
+                              decoration: new BoxDecoration(
+                                  borderRadius: new BorderRadius.all(
+                                      new Radius.circular(16.0)),
+                                  color: Colors.white24),
+                              child: new Text(
+                                "%",
+                                style: new TextStyle(
+                                    color: Colors.white, fontSize: 26.0),
+                              ),
+                            ),
+                          ),
+                          Flexible(
+                            flex: 1,
+                            child: new Container(
+                              margin: new EdgeInsets.all(6.0),
+                              height: double.infinity,
+                              width: double.infinity,
+                              alignment: Alignment.center,
+                              decoration: new BoxDecoration(
+                                  borderRadius: new BorderRadius.all(
+                                      new Radius.circular(16.0)),
+                                  color: Colors.white24),
+                              child: new Text(
+                                "\u00F7",
+                                style: new TextStyle(
+                                    color: Colors.white, fontSize: 26.0),
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
