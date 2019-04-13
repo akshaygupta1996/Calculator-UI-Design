@@ -2,7 +2,7 @@
 
 Calculator App
 
-## Getting Started
+# Screenshot
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+![alt text](screenshots/calculatorui.png "Auth Screen")
+
